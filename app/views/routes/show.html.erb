@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @route.location %>
+</p>
+
+<p>
+  <strong>Route name:</strong>
+  <%= @route.route_name %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @route.level %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @route.date %>
+</p>
+
+<%= link_to 'Edit', edit_route_path(@route) %> |
+<%= link_to 'Back', routes_path %>
